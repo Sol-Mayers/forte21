@@ -13,7 +13,7 @@ import Kit from "./pages/Kit/Kit";
 import Header from "./components/Header/Header";
 import NotFound from "./pages/NotFound/NotFound";
 import DeleteClientModal from "./modules/ClientsList/components/DeleteClientModal/DeleteClientModal";
-import { useDisclosure } from "@chakra-ui/react";
+import { Button, useDisclosure } from "@chakra-ui/react";
 import { ClientsData } from "./modules/ClientsList/types";
 
 function App() {
@@ -93,6 +93,7 @@ function App() {
                     <></>
                 )}
             </div>
+
             <DeleteClientModal
                 isOpen={isDeleteOpen}
                 onClose={onDeleteClose}

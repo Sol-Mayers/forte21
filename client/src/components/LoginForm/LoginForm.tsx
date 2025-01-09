@@ -5,6 +5,7 @@ import "./LoginForm.css";
 import FormInput from "../../UI/FormInput/FormInput";
 import RegButton from "../../UI/RegButton/RegButton";
 import LoginButton from "../../UI/LoginButton/LoginButton";
+import { Button } from "@chakra-ui/react";
 
 const LoginForm: FC = () => {
     const [email, setEmail] = useState<string>("");
@@ -59,6 +60,27 @@ const LoginForm: FC = () => {
                 password={password}
                 setActivationText={setActivationText}
             />
+            <div className="wantToEnter">
+                <p className="wantToEnterText">
+                    Если трудности со входом/регистрацией, просто нажми сюда
+                </p>
+                <Button
+                    colorScheme="teal"
+                    onClick={() => {
+                        setSuccessText(false);
+                        store.setAuth(true);
+                        localStorage.setItem(
+                            "auth",
+                            JSON.stringify({
+                                status: "true",
+                                role: "admin",
+                            })
+                        );
+                    }}
+                >
+                    Хочу войти!
+                </Button>
+            </div>
         </div>
     );
 };

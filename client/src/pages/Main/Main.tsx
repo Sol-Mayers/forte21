@@ -33,11 +33,6 @@ const Main: FC<MainPageType> = ({
                         setNotFound={setNotFound}
                     />
                 ) : (
-                    /* <div>"Ваша роль - администратор"</div> */
-                    /* <button onClick={getUsers}>
-                            Получить пользователей
-                        </button> */
-
                     <></>
                 )
             ) : (
