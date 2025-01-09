@@ -1,0 +1,8 @@
+.create-task-fields_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 10px;
+}

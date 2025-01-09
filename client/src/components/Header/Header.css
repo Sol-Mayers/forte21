@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: lightseagreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 50px;
+    padding: 0 30px;
+}

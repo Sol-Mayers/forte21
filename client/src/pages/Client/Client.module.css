@@ -1,0 +1,106 @@
+.clientsTable {
+    border: 1px solid gray;
+    border-radius: 6px;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.clientsTableInnerWrapper {
+    min-width: 700px;
+}
+.clientsTable_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #cee4e8;
+}
+
+.header_headerTitle:not(:first-child) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 19%;
+    overflow-x: hidden;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    box-shadow: -0.5px 0px 0px 0px gray;
+}
+.header_headerTitle:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 5%;
+    padding: 10px;
+}
+.clientTable_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+    border-top: 1px solid gray;
+    width: 100%;
+}
+.link_taskTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+.link_taskTable:not(:first-child) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 19%;
+    overflow-x: hidden;
+    padding: 10px;
+    box-shadow: -0.5px 0px 0px 0px gray;
+    font-size: 14px;
+}
+.link_taskTable:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    width: 5%;
+    padding: 10px;
+    font-size: 14px;
+}
+.link_taskTableCustomizing:hover .editWrapper_button {
+    visibility: visible;
+}
+.clientTable_editWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.editWrapper_button {
+    visibility: hidden;
+    width: 25px;
+    height: 25px;
+    background-image: url("../../../public/images/picture1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.link_id {
+    word-break: break-all;
+}

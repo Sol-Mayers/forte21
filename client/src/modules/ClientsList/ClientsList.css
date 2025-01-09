@@ -1,0 +1,32 @@
+.issuesNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid teal;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.issuesWrapper {
+    width: 100%;
+}
+
+.issuesTitle {
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+/* .searchButton {
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+} */
+.searchButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 50px;
+    color: #000000;
+}

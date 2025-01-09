@@ -1,0 +1,21 @@
+.confirmDeleteLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #dd6b20;
+    line-height: 1.2;
+    height: 2.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 0.375rem;
+    margin-right: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    transition-duration: 0.2s;
+}
+
+.confirmDeleteLink:hover {
+    background-color: #bf5e1d;
+}

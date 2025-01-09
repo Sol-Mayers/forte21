@@ -1,0 +1,30 @@
+.notFound_title {
+    color: #f58a1f;
+    margin-bottom: 30px;
+}
+.notFound_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.notFound_backHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.notFound_backHome:hover {
+    background-color: #cee4e8;
+}
